@@ -1,0 +1,35 @@
+name: apk_control_tp
+description: "aplicativo movil diseñado para el uso del sistema de control de Textil Padilla"
+publish_to: 'Byron Andres Guallasamin Morales'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.10.0
+  webview_flutter_wkwebview: ^3.18.5
+  webview_flutter_android: ^4.3.4
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_tp.png"
+  adaptive_icon_foreground: "assets/logo_tp.png"
+  adaptive_icon_background: "#000000"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_tp.png  # Asegúrate de que el archivo exista
